@@ -16,7 +16,7 @@ A budget tracker that allows users to keep track of the incoming and outgoing ca
 
 ## Usage
 
-<img src="imgs/usage_gif.GIF">
+<img src="imgs/usage_gif.gif">
 
 [Click here for a live deployed version!](https://infinite-badlands-42147.herokuapp.com/)
 
