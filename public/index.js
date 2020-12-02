@@ -142,6 +142,12 @@ function sendTransaction(isAdding) {
     nameEl.value = "";
     amountEl.value = "";
   });
+
+  // clearing the input fields once entry occurs
+  $("#t-name").val("")
+  $("#t-amount").val("")
+
+
 }
 
 document.querySelector("#add-btn").onclick = function() {

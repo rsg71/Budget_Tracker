@@ -26,11 +26,29 @@ input:focus {
   width:10em;
 }
 
+#yourTotal{
+  font-size:150% !important;
+  background-color: rgb(242, 245, 248);
+}
+
+#add-btn {
+  background-color: #6666FF;
+  color:white;
+}
 
 
-/* #t-name, #t-amount {
-  margin-bottom:20px;
-} */
+
+#add-btn, #sub-btn{
+  border: 3px solid #6666FF;
+  /* color:red; */
+}
+
+
+#sub-btn:hover {
+  background-color:#6666FF;
+  color:white  
+}
+
 
 table {
   width: 100%;
@@ -57,8 +75,8 @@ tr:nth-child(even) {
 }
 
 .total {
-  font-size: 150%;
-  text-decoration: underline;
+  font-size: 130% !important;
+  /* text-decoration: underline; */
 }
 
 .form {
@@ -72,6 +90,18 @@ tr:nth-child(even) {
   text-align: left;
   max-height: 300px;
   overflow: auto;
-  width: 90%;
   margin: 0 auto;
+}
+
+
+@media screen and (max-width:568px) {
+  #add-btn, #sub-btn {
+    font-size: 90% !important;
+    width:87%;
+    margin-left:1rem;
+    margin-right:1rem;
+  }
+  .transactions {
+    margin-top:2em !important;
+  }
 }

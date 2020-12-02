@@ -15,8 +15,8 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
+    <div class="total mt-5" >
+      <div class="total mx-4" id="yourTotal">Your total is: $<span id="total">0</span></div>
     </div>
 
     <!-- <form>
@@ -39,15 +39,15 @@
       <p class="error"></p>
 
       </div>
-      <button id="add-btn" class="btn btn-primary btn-lg"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn" class="btn btn-secondary btn-lg"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <button id="add-btn" class="btn  btn-lg mb-2 mt-1"><i class="fa fa-plus buttons"></i> Add Funds</button>
+      <button id="sub-btn" class="btn  btn-lg mb-2 mt-1"><i class="fa fa-minus"></i> Subtract Funds</button>
     </div>
 
-    <div class="transactions">
+    <div class="transactions mx-4">
       <table>
         <thead>
           <th>Transaction History</th>
-          <th>Amount History</th>
+          <th>Amount</th>
         </thead>
         <tbody id="tbody">
           
@@ -57,11 +57,14 @@
     
     <canvas id="myChart"></canvas>
   </div>
-
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="/db.js"></script>
   <script src="index.js"></script>
 
+
+  
   <script>
        if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
@@ -70,6 +73,10 @@
           });
         });
       }
+
+      $("#t-name")
+
+
   </script>
 </body>
 </html>
