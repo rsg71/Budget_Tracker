@@ -4,9 +4,33 @@ body {
 }
 
 button, input {
-  font-size: 100%;
+  font-size: 1.5em;
   font-family: Arial;
 }
+
+label {
+  font-weight:bold;
+  font-size:1.5em
+}
+
+input:focus {
+  background-color: cornsilk !important;
+}
+
+.form-row {
+  margin-left:20px !important;
+  margin-right:20px !important;
+}
+
+.btn {
+  width:10em;
+}
+
+
+
+/* #t-name, #t-amount {
+  margin-bottom:20px;
+} */
 
 table {
   width: 100%;
@@ -43,6 +67,8 @@ tr:nth-child(even) {
 }
 
 .transactions {
+  margin-top:5em !important;
+
   text-align: left;
   max-height: 300px;
   overflow: auto;
